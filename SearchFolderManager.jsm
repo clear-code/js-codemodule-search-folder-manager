@@ -82,7 +82,7 @@ SearchFolderManager.prototype = {
   toArray: function (aEnumerator, aInterface) {
     aInterface = aInterface || Ci.nsISupports;
     var array = [];
-    if (aEnumerator instanceof Ci.nsISupportsArray) {
+    if (Ci.nsISupportsArray && aEnumerator instanceof Ci.nsISupportsArray) {
       let count = aEnumerator.Count();
       for (let i = 0; i < count; i++) {
         array.push(aEnumerator.QueryElementAt(i, aInterface));
