@@ -1,7 +1,7 @@
 /**
  * @fileOverview Search Folder Manager for Thunderbird
  * @author       ClearCode Inc.
- * @version      3
+ * @version      4
  *
  * @description
  *   Usage:
@@ -17,7 +17,7 @@
  *     ]);
  *
  * @license
- *   The MIT License, Copyright (c) 2014 ClearCode Inc.
+ *   The MIT License, Copyright (c) 2014-2018 ClearCode Inc.
  * @url https://github.com/clear-code/js-codemodule-search-folder-manager
  */
 
